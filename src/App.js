@@ -19,7 +19,7 @@ import {
   DirectionsRenderer,
 } from '@react-google-maps/api'
 import { useRef, useState } from 'react'
-const center = { lat: 48.8584, lng: 2.2945 }
+const center = { lat:18.992546, lng: 72.836414 }
 
 function App() {
   const { isLoaded } = useJsApiLoader({
@@ -179,8 +179,8 @@ function App() {
   <Text fontSize='20px' fontWeight="500" >Distance:  <span style={{color
   :"0079FF", fontSize:"30px", margin: "40px", fontWeight:"700" }}>{distance}</span></Text>
 </Box>
-<Box mb={4} background='white'>
-  <Text fontSize='16px'>Duration: {duration}</Text>
+<Box mb={4} background='white'  paddingInline="30px">
+  <Text fontSize='16px' fontWeight="500" >ETA: {duration}</Text>
 </Box>
 <Box  position="fixed">
 {distance && duration && (
