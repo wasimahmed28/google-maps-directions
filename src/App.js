@@ -191,10 +191,10 @@ function App() {
       </Box>
 </Box>
 
-<Button backgroundColor='#1B31A8' color='white' borderRadius='55px' fontSize="18px" padding="35px" type='submit'  position="fixed"
-  top={300} left={700} onClick={calculateRoute}>
-      Calculate 
-    </Button>
+<Button backgroundColor='#1B31A8' color='white' borderRadius='55px' fontSize="18px" padding="35px" type='submit' position="fixed" top={300} left={700} onClick={calculateRoute} _hover={{ backgroundColor: '#8AB4F8' }}>
+  Calculate
+</Button>
+
     </Flex>
   )
 }
